@@ -24,19 +24,20 @@
             color="white"
             fixed
             style="height: 64px"
-            elevation="1"
+            elevation="0"
         >
             <img style="margin-left: 100px;height: 50px;width: 45px"
                     src="./../assets/logo.svg"
                     alt="Manipur Emblem"
             >
-            <v-toolbar-title style="width: 400px;padding-left: 10px">
-                <p class="ma-0 pa-0"><strong>{{ title }}</strong></p>
+            <v-toolbar-title style="width: 400px;padding-left: 10px"  elevation="4">
+                <p class="ma-0 pa-0"><strong>{{ title }} </strong></p>
                 <p class="ma-0 pa-0" style="font-size: 12px">{{ subtitle }}</p>
             </v-toolbar-title>
 
             <v-container fluid class="mx-auto ma-0 pa-0" style="height: 64px;position: relative;">
                 <v-row class="ma-0" align="center" justify="left" style="height: 64px;" >
+                    <!--
                     <v-btn
                         tile
                         dark
@@ -46,10 +47,11 @@
                         :class="{'active-link':currentRoute()===item.route,'link':currentRoute()!==item.route}"
                         class="text-capitalize"
                         text
-                    >
+                    > 
                         <v-icon small>{{item.icon}}</v-icon>
                         <span class="ml-1">{{item.name}}</span>
                     </v-btn>
+                    -->
                 </v-row>
             </v-container>
         </v-app-bar>

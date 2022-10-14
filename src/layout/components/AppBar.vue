@@ -64,6 +64,7 @@
             @change="changeLanguage"
             dense
             :value="$store.state.language"
+            style="border:none"
         ></v-select>
       </div>
 

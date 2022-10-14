@@ -1,8 +1,8 @@
 const mixin = {
     data: function () {
         return {
-            title: 'Vue Admin',
-            subtitle: 'An open source vue admin template',
+            title: 'App',
+            subtitle: 'Welcome',
             url:'https://vue-admin-temolate.com'
         }
     },

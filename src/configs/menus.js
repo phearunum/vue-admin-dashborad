@@ -24,127 +24,40 @@ const menus= [
         params:null,
     },
     {
-        icon: 'mdi-connection',
+        icon: 'mdi-account-lock',
         active: false,
         children: [
             {
 
-                title: 'Alert',
+                title: 'Users',
                 route:'https://vuetifyjs.com/en/components/alerts',
-                icon: 'mdi-alert',
+                icon: 'mdi-account',
                 external:true,
                 params:null,
             },
             {
 
-                title: 'Buttons',
-                route:'https://vuetifyjs.com/en/components/buttons/',
-                icon: 'mdi-gesture-tap-button',
+                title: 'Role',
+                route:'https://vuetifyjs.com/en/components/alerts',
+                icon: 'mdi-account-supervisor-outline',
                 external:true,
                 params:null,
             },
             {
 
-                title: 'Calendar',
-                route:'https://vuetifyjs.com/en/components/calendars/',
-                icon: 'mdi-calendar',
-                params:null,
-                external:true,
-            },
-            {
-
-                title: 'Drawer',
-                route:'https://vuetifyjs.com/en/components/navigation-drawers/',
-                icon: 'mdi-format-horizontal-align-center',
+                title: 'Role Access',
+                route:'https://vuetifyjs.com/en/components/alerts',
+                icon: 'mdi-account-wrench-outline',
                 external:true,
                 params:null,
             },
-
-            {
-
-                title: 'Cards',
-                route:'https://vuetifyjs.com/en/components/cards/',
-                icon: 'mdi-card-outline',
-                external:true,
-                params:null,
-            },
-            {
-
-                title: 'Grid System',
-                route:'https://vuetifyjs.com/en/components/grids',
-                icon: 'mdi-grid',
-                external:true,
-                params:null,
-            },
-            {
-
-                title: 'Date Picker',
-                route:'https://vuetifyjs.com/en/components/date-pickers/',
-                icon: 'mdi-calendar-range',
-                external:true,
-                params:null,
-            },
-            {
-                title: 'More Components',
-                route:'https://vuetifyjs.com',
-                icon: 'mdi-dots-horizontal',
-                external:true,
-                params:null,
-            },
+       
 
         ],
-        title: 'Components',
+        title: 'Administrator',
         external:false,
         params:null,
     },
-    {
-        icon: 'mdi-chart-bar',
-        children: [],
-        title: 'Apex Chart',
-        route:'https://apexcharts.com/vue-chart-demos/',
-        external:true,
-        params:null,
-    },
-    {
-        icon: 'mdi-text-box-multiple',
-        children: [
-            {
 
-                title: 'Registration',
-                route:'PageRegistration',
-                icon: 'mdi-account-plus',
-                params:{context:"page"},
-                external:false,
-            },
-            {
-
-                title: 'Sign In',
-                route:'PageSignIn',
-                icon: 'mdi-login',
-                params:{context:"page"},
-                external:false,
-            },
-            {
-
-                title: 'Forget Password',
-                route:'PageForgetPassword',
-                icon: 'mdi-lock',
-                params:{context:"page"},
-                external:false,
-            },
-            {
-
-                title: 'Recover Password',
-                route:'PageRecoverPassword',
-                icon: 'mdi-lock',
-                params:{context:"page"},
-                external:false,
-            },
-        ],
-        title: 'Pages',
-        route:'',
-        external:false,
-        params:null,
-    },
 ]
 export default menus;
